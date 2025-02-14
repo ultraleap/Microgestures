@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1159673412746468939
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8548175722623819968}
+  - component: {fileID: 4594488989232636753}
+  - component: {fileID: 6104558079834721805}
+  - component: {fileID: 4252839905687408198}
+  m_Layer: 0
+  m_Name: PinchMovement
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8548175722623819968
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1159673412746468939}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4594488989232636753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1159673412746468939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f88b4f88666559c4481c8d271f1f304d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leapProvider: {fileID: 0}
+  chirality: 0
+  fingerType: 1
+  activateDistance: 0.024
+  deactivateDistance: 0.032
+--- !u!114 &6104558079834721805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1159673412746468939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cbda695d1bc30c46804fc2ca4f7022f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  result: 0
+  value: 0
+  childGestures: []
+  parentGesture: {fileID: 4252839905687408198}
+  gestureMachine: {fileID: 0}
+  changedThisFrame: 0
+  _gestureOrder: 00000000
+  _lightweightPinchDetector: {fileID: 4594488989232636753}
+--- !u!114 &4252839905687408198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1159673412746468939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 226b69379aa6dd947a5a4fe5217affa5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  result: 0
+  value: 0
+  childGestures:
+  - {fileID: 6104558079834721805}
+  parentGesture: {fileID: 0}
+  gestureMachine: {fileID: 0}
+  changedThisFrame: 0
+  _gestureOrder: feffffff
+  resultDirection: 0
+  singleDirection: 0
+  singleDirectionOption: 0
+  distance: 0.005

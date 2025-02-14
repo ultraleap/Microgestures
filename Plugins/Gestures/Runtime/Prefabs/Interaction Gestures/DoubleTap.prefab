@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4758772399615173672
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8700127560604658943}
+  - component: {fileID: 6342057513191924536}
+  - component: {fileID: 8265348695652416165}
+  m_Layer: 0
+  m_Name: DoubleTap
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8700127560604658943
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4758772399615173672}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6342057513191924536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4758772399615173672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23f434ed6fd85a7468cd8a4f2fe68149, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  result: 0
+  value: 0
+  childGestures: []
+  parentGesture: {fileID: 8265348695652416165}
+  gestureMachine: {fileID: 0}
+  changedThisFrame: 0
+  _gestureOrder: 00000000
+  resultDirection: 0
+  singleDirection: 1
+  singleDirectionOption: 2
+  singleAxis: 1
+  singleAxisOption: 0
+  updateRate: 60
+  upRotation: {x: -75, y: 95, z: 3}
+  downRotation: {x: -115, y: -45, z: -40}
+  leftRotation: {x: 220, y: 0, z: 8}
+  rightRotation: {x: 18, y: 0, z: 28}
+  directionScale: {x: 1.4, y: 1.4, z: 1, w: 1}
+  palmVelocityMinMax: {x: 0.2, y: 0.5}
+  _currentVelocityLerp: 0
+  _velocityLerpTime: 0.2
+  _currentPosDelta: 0
+  _posDeltaLerp: 0
+  _posDeltaLerpTime: 0.05
+  _currentSquareVelDelta: 0
+  _deltaRemap: {x: 0, y: 0.014}
+  initialWindupTime: 0.35
+  interactionCooldown: 0.08
+  interactionTimer: 0.02
+  requireLowMagnitudeRepeat: 1
+  magCooldownTime: 0.01
+  requireFingerCurl: 1
+  fingerCurlAmount: 0.5
+  fingerCurlLerpTime: 0.05
+  upFilter:
+    parameters:
+      pointParams: {x: 1, y: 0.1, z: 0.1}
+      velParams: {x: 5, y: 0.05, z: 8}
+      accelParams: {x: 3, y: 0.02, z: 4}
+      resetParams: {x: 0.2, y: 0.1, z: 0.1}
+      resetTime: 0
+  downFilter:
+    parameters:
+      pointParams: {x: 1, y: 0.1, z: 0.1}
+      velParams: {x: 5, y: 0.05, z: 8}
+      accelParams: {x: 3, y: 0.02, z: 4}
+      resetParams: {x: 0.2, y: 0.1, z: 0.1}
+      resetTime: 0
+  leftFilter:
+    parameters:
+      pointParams: {x: 0.8, y: 0.1, z: 0.1}
+      velParams: {x: 5, y: 0.05, z: 8}
+      accelParams: {x: 3, y: 0.02, z: 4}
+      resetParams: {x: 0.2, y: 0.1, z: 0.1}
+      resetTime: 0
+  rightFilter:
+    parameters:
+      pointParams: {x: 0.8, y: 0.1, z: 0.1}
+      velParams: {x: 5, y: 0.05, z: 8}
+      accelParams: {x: 3, y: 0.02, z: 4}
+      resetParams: {x: 0.2, y: 0.1, z: 0.1}
+      resetTime: 0
+  _a: 0
+  _b: -90
+  directions:
+  - 0
+  - 0
+  - 0
+  - 0
+  upAllowed: 0
+  downAllowed: 0
+  leftAllowed: 0
+  rightAllowed: 0
+  _upOutput: 0
+  _downOutput: 2
+  _leftOutput: 3
+  _rightOutput: 1
+  velMag: 0.02
+  proxVelMag: 0.04
+  diffMag: 3
+  proxDiffMag: 7
+  magA: 0.78
+  magB: 0.4
+--- !u!114 &8265348695652416165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4758772399615173672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40cdc119671d4564a91d6001b8d58aa6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  result: 0
+  value: 0
+  childGestures:
+  - {fileID: 6342057513191924536}
+  parentGesture: {fileID: 0}
+  gestureMachine: {fileID: 0}
+  changedThisFrame: 0
+  _gestureOrder: feffffff
+  resultDirection: 0
+  singleDirection: 1
+  singleDirectionOption: 2
+  singleAxis: 0
+  singleAxisOption: 0
+  repeatCount: 2
+  timeOut: 0.75
+  cooldown: 0.5

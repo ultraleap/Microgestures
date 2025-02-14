@@ -1,0 +1,26 @@
+{
+  "name": "com.ultraleap.gesturemachine",
+  "version": "0.0.1",
+  "description": "Ultraleap Gesture Machine system for building modular gestures.",
+  "displayName": "Ultraleap Gesture Machine",
+  "unity": "2021.3",
+  "license": "Apache-2.0",
+  "keywords": [
+    "ultraleap",
+    "leap motion",
+    "hand tracking",
+    "tracking"
+  ],
+  "documentationUrl": "https://docs.ultraleap.com/",
+  "author": {
+    "name": "Ultraleap",
+    "email": "contact@ultraleap.com",
+    "url": "https://www.ultraleap.com"
+  },
+  "dependencies": {
+    "com.ultraleap.tracking": "",
+    "com.ultraleap.tracking.preview": "",
+    "com.unity.splines": "2.4.0",
+	"com.unity.mathematics": "1.2.6"
+  }
+}

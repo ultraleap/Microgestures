@@ -1,0 +1,21 @@
+# ====================== #
+# Ultrahaptics generated #
+# ====================== #
+Builds/
+AssetDirStat.asset
+Build/
+Configure Local Build.exe.config
+Configure Local Build.pdb
+Configure Project.exe.config
+Configure Project.pdb
+UnityApp/TestOutput/*
+UnityApp/test.log
+Python/stats.csv
+Python/stats.html
+Python/.ipynb_checkpoints/*
+Recordings/*
+Models/*
+System.Diagnostics.DiagnosticSource.xml
+Newtonsoft.Json.xml
+UnityApp/TestRecordings/*
+!CI/*

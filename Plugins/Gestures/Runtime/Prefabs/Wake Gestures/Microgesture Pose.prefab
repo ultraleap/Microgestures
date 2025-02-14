@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6675042852854184013
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4003000551378879912}
+  - component: {fileID: 2660297502963675899}
+  - component: {fileID: 3948090354055917814}
+  - component: {fileID: 2882440959221106390}
+  - component: {fileID: 3547943042952098871}
+  m_Layer: 0
+  m_Name: Microgesture Pose
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4003000551378879912
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6675042852854184013}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2660297502963675899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6675042852854184013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2577b035aac90e04fbadc39e5ecffdc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _leapProvider: {fileID: 0}
+  gesture: {fileID: 3948090354055917814}
+  chirality: 1
+  processing: 1
+--- !u!114 &3948090354055917814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6675042852854184013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b15f3a7edf85604aaae3fe8dc3395dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  result: 0
+  value: 0
+  childGestures:
+  - {fileID: 2882440959221106390}
+  - {fileID: 3547943042952098871}
+  parentGesture: {fileID: 0}
+  gestureMachine: {fileID: 0}
+  changedThisFrame: 0
+  _gestureOrder: feffffff
+  holdIfLastTrue: 0
+--- !u!114 &2882440959221106390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6675042852854184013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74968dc97df7b8547bf7ce6150fc3907, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  result: 0
+  value: 0
+  childGestures: []
+  parentGesture: {fileID: 3948090354055917814}
+  gestureMachine: {fileID: 0}
+  changedThisFrame: 0
+  _gestureOrder: 00000000
+  direction: {x: -1, y: 0, z: 0}
+  dotValue: 0.7
+  invertXForLeft: 1
+--- !u!114 &3547943042952098871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6675042852854184013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e25b488439f30a4b851ddaf1b0aee42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  result: 0
+  value: 0
+  childGestures: []
+  parentGesture: {fileID: 3948090354055917814}
+  gestureMachine: {fileID: 0}
+  changedThisFrame: 0
+  _gestureOrder: 01000000
+  fingerIndex: 1
+  curlAmount: 0.3

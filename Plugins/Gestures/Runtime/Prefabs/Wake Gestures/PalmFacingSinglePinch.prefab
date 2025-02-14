@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2183434392236381448
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1589062877071425535}
+  - component: {fileID: 1103808244649435575}
+  - component: {fileID: 8063854427895054117}
+  - component: {fileID: 4965759010001980721}
+  - component: {fileID: 5302278444872024737}
+  m_Layer: 0
+  m_Name: PalmFacingSinglePinch
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1589062877071425535
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2183434392236381448}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1103808244649435575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2183434392236381448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74968dc97df7b8547bf7ce6150fc3907, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  result: 0
+  value: 0
+  childGestures: []
+  parentGesture: {fileID: 5302278444872024737}
+  gestureMachine: {fileID: 0}
+  changedThisFrame: 0
+  _gestureOrder: 00000000
+  direction: {x: 0, y: 0, z: -1}
+  dotValue: 0.6
+  invertXForLeft: 1
+--- !u!114 &8063854427895054117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2183434392236381448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f88b4f88666559c4481c8d271f1f304d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leapProvider: {fileID: 0}
+  chirality: 0
+  fingerType: 1
+  activateDistance: 0.024
+  deactivateDistance: 0.03
+--- !u!114 &4965759010001980721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2183434392236381448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cbda695d1bc30c46804fc2ca4f7022f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  result: 0
+  value: 0
+  childGestures: []
+  parentGesture: {fileID: 5302278444872024737}
+  gestureMachine: {fileID: 0}
+  changedThisFrame: 0
+  _gestureOrder: 01000000
+  _lightweightPinchDetector: {fileID: 8063854427895054117}
+--- !u!114 &5302278444872024737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2183434392236381448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cee68ab2ba9ef864bb3ecf3acbcbd632, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  result: 0
+  value: 0
+  childGestures:
+  - {fileID: 1103808244649435575}
+  - {fileID: 4965759010001980721}
+  parentGesture: {fileID: 0}
+  gestureMachine: {fileID: 0}
+  changedThisFrame: 0
+  _gestureOrder: feffffff
+  holdIfLastTrue: 1
+  requireAll: 1
+  resetOnEnd: 0
+  stickyTime: 0.1
+  _requireFrameIncrease: 0101

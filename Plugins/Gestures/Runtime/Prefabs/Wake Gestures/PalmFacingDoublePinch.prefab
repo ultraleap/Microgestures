@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5846698426939855908
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3271879871247108206}
+  - component: {fileID: 3290164524607198806}
+  - component: {fileID: 1198951229805592968}
+  - component: {fileID: 1284023292330722820}
+  - component: {fileID: 6563467677698002192}
+  - component: {fileID: 8159671512971586924}
+  m_Layer: 0
+  m_Name: PalmFacingDoublePinch
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3271879871247108206
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5846698426939855908}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3290164524607198806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5846698426939855908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74968dc97df7b8547bf7ce6150fc3907, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  result: 0
+  value: 0
+  childGestures: []
+  parentGesture: {fileID: 8159671512971586924}
+  gestureMachine: {fileID: 0}
+  changedThisFrame: 0
+  _gestureOrder: 00000000
+  direction: {x: 0, y: 0, z: -1}
+  dotValue: 0.6
+  invertXForLeft: 1
+--- !u!114 &1198951229805592968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5846698426939855908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f88b4f88666559c4481c8d271f1f304d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leapProvider: {fileID: 0}
+  chirality: 0
+  fingerType: 1
+  activateDistance: 0.024
+  deactivateDistance: 0.03
+--- !u!114 &1284023292330722820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5846698426939855908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cbda695d1bc30c46804fc2ca4f7022f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  result: 0
+  value: 0
+  childGestures: []
+  parentGesture: {fileID: 6563467677698002192}
+  gestureMachine: {fileID: 0}
+  changedThisFrame: 0
+  _gestureOrder: 01000000
+  _lightweightPinchDetector: {fileID: 1198951229805592968}
+--- !u!114 &6563467677698002192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5846698426939855908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21248bb99347fb7449de7b8b3f0740ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  result: 0
+  value: 0
+  childGestures:
+  - {fileID: 1284023292330722820}
+  parentGesture: {fileID: 8159671512971586924}
+  gestureMachine: {fileID: 0}
+  changedThisFrame: 0
+  _gestureOrder: 02000000
+  individualTimer: 0.5
+  count: 2
+  holdingKeepsTrue: 1
+  skipFirstCount: 0
+--- !u!114 &8159671512971586924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5846698426939855908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cee68ab2ba9ef864bb3ecf3acbcbd632, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  result: 0
+  value: 0
+  childGestures:
+  - {fileID: 3290164524607198806}
+  - {fileID: 6563467677698002192}
+  parentGesture: {fileID: 0}
+  gestureMachine: {fileID: 0}
+  changedThisFrame: 0
+  _gestureOrder: feffffff
+  holdIfLastTrue: 1
+  requireAll: 1
+  resetOnEnd: 0
+  stickyTime: 0.1
+  _requireFrameIncrease: 0101

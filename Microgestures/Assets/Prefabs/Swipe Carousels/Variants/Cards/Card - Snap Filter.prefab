@@ -1,0 +1,457 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &835500037194763293
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 408842033845069467}
+  - component: {fileID: 3247700338903590619}
+  - component: {fileID: 3131349662361637798}
+  m_Layer: 5
+  m_Name: Icon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &408842033845069467
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 835500037194763293}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.302537, y: 0.302537, z: 0.302537}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7585163682815553108}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 29.518616}
+  m_SizeDelta: {x: 388, y: 388}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &3247700338903590619
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 835500037194763293}
+  m_CullTransparentMesh: 1
+--- !u!114 &3131349662361637798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 835500037194763293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 67282f385c006684cb8ba2699aa60cc9, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 4.43
+--- !u!1001 &1155738416008170441
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 269518464726071745, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+      propertyPath: m_Name
+      value: Title
+      objectReference: {fileID: 0}
+    - target: {fileID: 1096446969352747348, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 195.1404
+      objectReference: {fileID: 0}
+    - target: {fileID: 1096446969352747348, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.302537
+      objectReference: {fileID: 0}
+    - target: {fileID: 1096446969352747348, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.302537
+      objectReference: {fileID: 0}
+    - target: {fileID: 1096446969352747348, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.302537
+      objectReference: {fileID: 0}
+    - target: {fileID: 1096446969352747348, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 29.518616
+      objectReference: {fileID: 0}
+    - target: {fileID: 1248493439797675673, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+      propertyPath: m_Name
+      value: Card - Snap Filter
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567438901046400381, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+      propertyPath: m_text
+      value: Murder On the Dancefloor - EP
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567438901046400381, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+      propertyPath: m_fontSize
+      value: 23.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567438901046400381, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 478ecd83be83779488c3a769cc18cb8a, type: 2}
+    - target: {fileID: 1567438901046400381, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -506275334936469558, guid: 478ecd83be83779488c3a769cc18cb8a, type: 2}
+    - target: {fileID: 1567438901046400381, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 1024
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567438901046400381, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567438901046400381, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291528780614943574, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291528780614943574, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291528780614943574, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -40
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291528780614943574, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -36.848
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291528780614943574, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291528780614943574, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291528780614943574, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 23.424026
+      objectReference: {fileID: 0}
+    - target: {fileID: 6555380760511595239, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+      propertyPath: m_fontSize
+      value: 20.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 8739775870037304733, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8739775870037304733, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8739775870037304733, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8739775870037304733, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8739775870037304733, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8739775870037304733, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8739775870037304733, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 387.58414
+      objectReference: {fileID: 0}
+    - target: {fileID: 8739775870037304733, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 387.5841
+      objectReference: {fileID: 0}
+    - target: {fileID: 8739775870037304733, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8739775870037304733, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8739775870037304733, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8739775870037304733, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8739775870037304733, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8739775870037304733, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8739775870037304733, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8739775870037304733, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8739775870037304733, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8739775870037304733, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8739775870037304733, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8739775870037304733, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8739775870037304733, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8739775870037304733, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8739775870037304733, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 0}
+    - {fileID: 4257436185101321554, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+    m_RemovedGameObjects:
+    - {fileID: 4916077109054802898, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+    - {fileID: 269518464726071745, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+    - {fileID: 9005784130112163004, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 8739775870037304733, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 408842033845069467}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1248493439797675673, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9038451822513054946}
+  m_SourcePrefab: {fileID: 100100000, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+--- !u!1 &97262645668433232 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1248493439797675673, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+  m_PrefabInstance: {fileID: 1155738416008170441}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &9038451822513054946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97262645668433232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 756610e871af2624f83c111817786703, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _blobFader: {fileID: 0}
+  _blobProgress: {fileID: 0}
+  _content:
+  - Img: {fileID: 21300000, guid: 67282f385c006684cb8ba2699aa60cc9, type: 3}
+    ImgAlt: {fileID: 21300000, guid: f83f055166d444b47ab474e1941c5c1c, type: 3}
+    Text: .5 Classic Lens
+    TextAlt: 
+    Vid: {fileID: 0}
+    TextExp: 
+  - Img: {fileID: 21300000, guid: 0a04aa34db39b834f88d2208a27b2d29, type: 3}
+    ImgAlt: {fileID: 21300000, guid: a3541aab8312a464b9f62e96b6748f78, type: 3}
+    Text: Anime Style Lens
+    TextAlt: 
+    Vid: {fileID: 0}
+    TextExp: 
+  - Img: {fileID: 21300000, guid: 09d7161136d56cd4da0c27cc73fed970, type: 3}
+    ImgAlt: {fileID: 21300000, guid: 560e94f4b2d24374db95d431cfef5633, type: 3}
+    Text: Anime AI Lens
+    TextAlt: 
+    Vid: {fileID: 0}
+    TextExp: 
+  - Img: {fileID: 21300000, guid: e1583abd429d3ba469fcf5ff380a7029, type: 3}
+    ImgAlt: {fileID: 21300000, guid: dcfa4084981f5044688d674cea62fc3f, type: 3}
+    Text: Baby Cheeks Lens
+    TextAlt: 
+    Vid: {fileID: 0}
+    TextExp: 
+  - Img: {fileID: 21300000, guid: 1f85f105611516146b1e8cd366706b23, type: 3}
+    ImgAlt: {fileID: 21300000, guid: 26db3c0dd49eccb4cb5a3956315c1511, type: 3}
+    Text: Beauty Cartoon Lens
+    TextAlt: 
+    Vid: {fileID: 0}
+    TextExp: 
+  - Img: {fileID: 21300000, guid: b56cec2dbefd5cd43a741c709fe3d62d, type: 3}
+    ImgAlt: {fileID: 21300000, guid: 737aa9995d3449e4396e78d547097aba, type: 3}
+    Text: Big Lips Lens
+    TextAlt: 
+    Vid: {fileID: 0}
+    TextExp: 
+  - Img: {fileID: 21300000, guid: 7e15817d4aed06647a40317645c2a45f, type: 3}
+    ImgAlt: {fileID: 21300000, guid: 93fb8a42c19f3284086cfd64f6b50462, type: 3}
+    Text: CaPcuT VidEos Lens
+    TextAlt: 
+    Vid: {fileID: 0}
+    TextExp: 
+  - Img: {fileID: 21300000, guid: ef11da80d509a8442895906beefa8952, type: 3}
+    ImgAlt: {fileID: 21300000, guid: 6900c947a9f1aec42a0a43e4e71d01a8, type: 3}
+    Text: Cartoon Kid Lens
+    TextAlt: 
+    Vid: {fileID: 0}
+    TextExp: 
+  - Img: {fileID: 21300000, guid: 036dc058619c88847b646754d679eac0, type: 3}
+    ImgAlt: {fileID: 21300000, guid: aa79df8778055d240986f9bfce4aee8f, type: 3}
+    Text: Crying Lens
+    TextAlt: 
+    Vid: {fileID: 0}
+    TextExp: 
+  - Img: {fileID: 21300000, guid: 3df321843df90194eaf770345dbe30f1, type: 3}
+    ImgAlt: {fileID: 21300000, guid: ee48f904308af4542896f4cae0e12893, type: 3}
+    Text: Cute Anime Lens
+    TextAlt: 
+    Vid: {fileID: 0}
+    TextExp: 
+  - Img: {fileID: 21300000, guid: 3629b2849c048cf4b955192f331784d1, type: 3}
+    ImgAlt: {fileID: 21300000, guid: d96562249bf9428418f837508cf1cb6b, type: 3}
+    Text: AI Cute Cartoon Lens
+    TextAlt: 
+    Vid: {fileID: 0}
+    TextExp: 
+  - Img: {fileID: 21300000, guid: 8e09cc27f29232147915dbc4588e47aa, type: 3}
+    ImgAlt: {fileID: 21300000, guid: d89ae0f1812edbd429fa441a620c2ebd, type: 3}
+    Text: AI Digital Style Lens
+    TextAlt: 
+    Vid: {fileID: 0}
+    TextExp: 
+  - Img: {fileID: 21300000, guid: b1dda3d7d1eef3b4f9d5fec0ec7328ac, type: 3}
+    ImgAlt: {fileID: 21300000, guid: a018f39d92489184b84e664b213cac9d, type: 3}
+    Text: Disgust Lens
+    TextAlt: 
+    Vid: {fileID: 0}
+    TextExp: 
+  - Img: {fileID: 21300000, guid: 9d2def886c6a4754ca001b956808c5ad, type: 3}
+    ImgAlt: {fileID: 21300000, guid: fb02835e9774c3b4088ed4172508c762, type: 3}
+    Text: Doll Style Lens
+    TextAlt: 
+    Vid: {fileID: 0}
+    TextExp: 
+  - Img: {fileID: 21300000, guid: 24bac6435598f744fa485106ae2ef3e3, type: 3}
+    ImgAlt: {fileID: 21300000, guid: 9803772683c1f144a924d06c90296736, type: 3}
+    Text: Evil Beauty Lens
+    TextAlt: 
+    Vid: {fileID: 0}
+    TextExp: 
+  - Img: {fileID: 21300000, guid: d9e9b33eeb890f847a0a1f8afc06ebed, type: 3}
+    ImgAlt: {fileID: 21300000, guid: 86d8ee197317307469e20c1314ccb306, type: 3}
+    Text: Light Eyes Lens
+    TextAlt: 
+    Vid: {fileID: 0}
+    TextExp: 
+  - Img: {fileID: 21300000, guid: a937196f38f7b8e4c9ced73d61aedefa, type: 3}
+    ImgAlt: {fileID: 21300000, guid: 8350cfea6df22f544ab357121f4b72d9, type: 3}
+    Text: Old Lens
+    TextAlt: 
+    Vid: {fileID: 0}
+    TextExp: 
+  - Img: {fileID: 21300000, guid: eec21ddc197b7c04a97b8f6517093567, type: 3}
+    ImgAlt: {fileID: 21300000, guid: e0b26c178a3b73f4d930d349e8bf27b3, type: 3}
+    Text: PATRICK STAR Lens
+    TextAlt: 
+    Vid: {fileID: 0}
+    TextExp: 
+  - Img: {fileID: 21300000, guid: b3baee672534fb04a97d7149af4d1101, type: 3}
+    ImgAlt: {fileID: 21300000, guid: e7045a9b6eb177740b429c598571e842, type: 3}
+    Text: Shook Lens
+    TextAlt: 
+    Vid: {fileID: 0}
+    TextExp: 
+  - Img: {fileID: 21300000, guid: 81b88e54d14f44b4c8a657613b26f4a1, type: 3}
+    ImgAlt: {fileID: 21300000, guid: ad219bb5057df7d4ab8c1e03a9353f3e, type: 3}
+    Text: Sibling Lens
+    TextAlt: 
+    Vid: {fileID: 0}
+    TextExp: 
+  - Img: {fileID: 21300000, guid: 35bccf756f123694b9f76ee08e1c2ae0, type: 3}
+    ImgAlt: {fileID: 21300000, guid: 1612ac13e8ca7894b975f9219cd214d5, type: 3}
+    Text: Sibling Lens
+    TextAlt: 
+    Vid: {fileID: 0}
+    TextExp: 
+  - Img: {fileID: 21300000, guid: c75f13d7b5aea4f4b90fed4400df824c, type: 3}
+    ImgAlt: {fileID: 21300000, guid: 649892a9e6de33842b701387eb0613ce, type: 3}
+    Text: AI Sketch Lens
+    TextAlt: 
+    Vid: {fileID: 0}
+    TextExp: 
+  - Img: {fileID: 21300000, guid: 78f96cabaef521048a80cc3ea7265c0c, type: 3}
+    ImgAlt: {fileID: 21300000, guid: 5bce4308d714211419117294cbf7601a, type: 3}
+    Text: Stunning Look Lens
+    TextAlt: 
+    Vid: {fileID: 0}
+    TextExp: 
+  - Img: {fileID: 21300000, guid: 18ede2d00dcc4794c8fe4aa12d9f79dd, type: 3}
+    ImgAlt: {fileID: 21300000, guid: 688c83c52b9354a418f3252c61c57430, type: 3}
+    Text: Tongue Twister Lens
+    TextAlt: 
+    Vid: {fileID: 0}
+    TextExp: 
+  - Img: {fileID: 21300000, guid: 94c527b4d9fc0b9469f7ec5594a3c494, type: 3}
+    ImgAlt: {fileID: 21300000, guid: ba6325b4d3543c34d9aafab31ac1f9cf, type: 3}
+    Text: AI Universe Lens
+    TextAlt: 
+    Vid: {fileID: 0}
+    TextExp: 
+  _icon: {fileID: 3131349662361637798}
+--- !u!224 &7585163682815553108 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8739775870037304733, guid: 1cac2bb30080b484380231ae4188db54, type: 3}
+  m_PrefabInstance: {fileID: 1155738416008170441}
+  m_PrefabAsset: {fileID: 0}

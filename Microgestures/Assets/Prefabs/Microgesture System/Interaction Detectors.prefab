@@ -1,0 +1,185 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6085198188179806567
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6104683684622172752}
+  - component: {fileID: 5959939951066900554}
+  - component: {fileID: 8701426924967254050}
+  - component: {fileID: 6365788456381359015}
+  - component: {fileID: 7203463849889974419}
+  m_Layer: 0
+  m_Name: Interaction Detectors
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6104683684622172752
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6085198188179806567}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6501613864044150753}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5959939951066900554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6085198188179806567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4e5b4aec2a9d224c9ec1fa310b6f259, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _thumbSlider: {fileID: 0}
+  _timeToContinueCheckingAfterContact: 0.05
+  _distanceThreshold: 0.125
+  _velocityThreshold: 1
+  OnSwiped:
+    m_PersistentCalls:
+      m_Calls: []
+  OnSwipeDirectionChange:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &8701426924967254050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6085198188179806567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fefa42bdeb7ef394db387c7f7df89e6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _thumbSlider: {fileID: 0}
+  OnInertia:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &6365788456381359015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6085198188179806567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a11ab3df3d7e6134b9d1a3ed8d9eb190, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _thumbSlider: {fileID: 0}
+  _modifier: 0.6
+  _acceleration: 1
+  OnAcceleration:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &7203463849889974419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6085198188179806567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6266acd185498fd4e967e44974f602bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _frictionCoefficient: 4
+  _minVelocity: 0.1
+  _inertiaThreshold: 0.05
+--- !u!1 &7322061882540751874
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6501613864044150753}
+  - component: {fileID: 5551224674743400481}
+  - component: {fileID: 2215424722148136205}
+  m_Layer: 0
+  m_Name: DistanceDirectionTapDetector
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6501613864044150753
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7322061882540751874}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6104683684622172752}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5551224674743400481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7322061882540751874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cee00016aeffe564894776c50a85ef8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _thumbSlider: {fileID: 0}
+  OnTap:
+    m_PersistentCalls:
+      m_Calls: []
+  _contactDetector: {fileID: 0}
+  _slideDeadzone: 0.25
+  _contactStillDeadzone: 0.0003
+  _positiveTrendTime: 0.0333
+  _negativeTrendTime: 0.022
+  _contactTimestampsQueue: []
+  _enableDebugLogs: 0
+--- !u!114 &2215424722148136205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7322061882540751874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebecde62e5bf61543a618e972c5f205a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _thumbSlider: {fileID: 0}
+  OnDoubleTap:
+    m_PersistentCalls:
+      m_Calls: []
+  tapDetector: {fileID: 5551224674743400481}
+  _maxTimeToConsiderDoubleTap: 0.558
+  _slideDeadzone: 0.25
+  _enableDebugLogs: 1

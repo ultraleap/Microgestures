@@ -1,0 +1,22 @@
+{
+    "name": "Ultraleap.Tracking.GestureMachine.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:cec9848704c49724192ff47f9b3e9156",
+        "GUID:2df5cb6717c702d4f80281728e9980b8",
+        "GUID:6f009b6f3c20f7c4c88666efdbd6a6ea"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "UNITY_2021_3_OR_NEWER"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
